@@ -16,8 +16,8 @@ const container = document.querySelector('#container');
 buttonSet.addEventListener('click', () => {
 
     let value = prompt("enter a number between 1 and 100 to set grid size");
-    let width = (500 / value) + 'px';
-    let height = (500 / value) + 'px';
+    let width = (600 / value) + 'px';
+    let height = (600 / value) + 'px';
     let size = value * value; 
     console.log(width);
 
